@@ -58,7 +58,26 @@ and scalable Java applications. The course is divided into several modules, each
 ## Getting Started
 
 To get started with this repository, you can clone it to your local machine using the following command:
+**Visual Studio Code (VS Code):**
+-Open Visual Studio Code.
+-Press Ctrl + Shift + P to open the command palette.
+-Type "Git: Clone" and press Enter.
+-Enter the repository URL (https://github.com/DarshanDeore01/Core_Java.git) and press Enter.
+-Choose a local directory for cloning the repository.
+-VS Code will clone the repository into the selected directory.
 
+**Eclipse:**
+-Open Eclipse IDE.
+-Go to File > Import....
+-In the Import dialog, expand the "Git" folder and select "Projects from Git".
+-Click "Next".
+-Select "Clone URI" and click "Next".
+-Enter the repository URI (https://github.com/DarshanDeore01/Core_Java.git) and click "Next".
+-Choose a local directory for cloning the repository and click "Next".
+-Select the branches you want to clone (usually "master") and click "Next".
+-Choose a destination directory and project name for the cloned repository and click "Finish".
+-Eclipse will clone the repository and import it as a project into your workspace.
+-Once you've cloned the repository using either Visual Studio Code or Eclipse, you can start working with the code and resources it contains.
 
 ## Usage
 
