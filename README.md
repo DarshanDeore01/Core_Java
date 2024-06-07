@@ -58,26 +58,30 @@ and scalable Java applications. The course is divided into several modules, each
 ## Getting Started
 
 To get started with this repository, you can clone it to your local machine using the following command:
-**Visual Studio Code (VS Code):**
--Open Visual Studio Code.
--Press Ctrl + Shift + P to open the command palette.
--Type "Git: Clone" and press Enter.
--Enter the repository URL (https://github.com/DarshanDeore01/Core_Java.git) and press Enter.
--Choose a local directory for cloning the repository.
--VS Code will clone the repository into the selected directory.
 
-**Eclipse:**
--Open Eclipse IDE.
--Go to File > Import....
--In the Import dialog, expand the "Git" folder and select "Projects from Git".
--Click "Next".
--Select "Clone URI" and click "Next".
--Enter the repository URI (https://github.com/DarshanDeore01/Core_Java.git) and click "Next".
--Choose a local directory for cloning the repository and click "Next".
--Select the branches you want to clone (usually "master") and click "Next".
--Choose a destination directory and project name for the cloned repository and click "Finish".
--Eclipse will clone the repository and import it as a project into your workspace.
--Once you've cloned the repository using either Visual Studio Code or Eclipse, you can start working with the code and resources it contains.
+### Visual Studio Code (VS Code):
+
+1. Open Visual Studio Code.
+2. Press `Ctrl + Shift + P` to open the command palette.
+3. Type "Git: Clone" and press `Enter`.
+4. Enter the repository URL (`https://github.com/DarshanDeore01/Core_Java.git`) and press `Enter`.
+5. Choose a local directory for cloning the repository.
+6. VS Code will clone the repository into the selected directory.
+
+### Eclipse:
+
+1. Open Eclipse IDE.
+2. Go to `File > Import...`.
+3. In the Import dialog, expand the "Git" folder and select "Projects from Git".
+4. Click "Next".
+5. Select "Clone URI" and click "Next".
+6. Enter the repository URI (`https://github.com/DarshanDeore01/Core_Java.git`) and click "Next".
+7. Choose a local directory for cloning the repository and click "Next".
+8. Select the branches you want to clone (usually "master") and click "Next".
+9. Choose a destination directory and project name for the cloned repository and click "Finish".
+10. Eclipse will clone the repository and import it as a project into your workspace.
+
+Once you've cloned the repository using either Visual Studio Code or Eclipse, you can start working with the code and resources it contains.
 
 ## Usage
 
