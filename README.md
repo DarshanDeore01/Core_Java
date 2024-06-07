@@ -70,6 +70,6 @@ Contributions to this repository are welcome! If you find any issues or have sug
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) © Darshan Deore 2024.
+This project is licensed under the [https://github.com/DarshanDeore01/Core_Java)](LICENSE) © Darshan Deore 2024.
 
 
