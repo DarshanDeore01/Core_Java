@@ -2,7 +2,7 @@ package Day2_Lab2;
 
 public class Lab_Ex_2_P3_Employee {
 
-    // Attributes
+   
     private int employeeId;
     private String employeeName;
     private double basicSalary;
@@ -13,9 +13,9 @@ public class Lab_Ex_2_P3_Employee {
     private double netSalary;
     private double grossSalary;
 
-    // No-arguments constructor
+    
     public Lab_Ex_2_P3_Employee() {
-        // Default values
+       
         employeeId = 0;
         employeeName = "";
         basicSalary = 0.0;
@@ -27,7 +27,7 @@ public class Lab_Ex_2_P3_Employee {
         calculateNetSalary();
     }
 
-    // Parameterized constructor
+   
     public Lab_Ex_2_P3_Employee(int employeeId, String employeeName, double basicSalary, double medical) {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
@@ -40,7 +40,7 @@ public class Lab_Ex_2_P3_Employee {
         calculateNetSalary();
     }
 
-    // Accessor methods
+    
     public int getEmployeeId() {
         return employeeId;
     }
@@ -61,7 +61,7 @@ public class Lab_Ex_2_P3_Employee {
         return grossSalary;
     }
 
-    // Mutator methods
+    
     public void setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
     }
@@ -78,32 +78,32 @@ public class Lab_Ex_2_P3_Employee {
         this.medical = medical;
     }
 
-    // Method to calculate HRA
+    
     private void calculateHRA() {
         hra = 0.5 * basicSalary;
     }
 
-    // Method to calculate PF
+    
     private void calculatePF() {
         pf = 0.12 * basicSalary;
     }
 
-    // Method to calculate PT
+  
     private void calculatePT() {
         pt = 200.0;
     }
 
-    // Method to calculate Gross Salary
+   
     private void calculateGrossSalary() {
         grossSalary = basicSalary + hra + medical;
     }
 
-    // Method to calculate Net Salary
+   
     private void calculateNetSalary() {
         netSalary = grossSalary - (pt + pf);
     }
 
-    // Method to display employee details
+   
     public void displayDetails() {
         System.out.println("Employee ID: " + employeeId);
         System.out.println("Employee Name: " + employeeName);

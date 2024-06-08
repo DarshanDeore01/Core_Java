@@ -10,15 +10,15 @@ import java.util.Scanner;
 public class AutomorphicNumbe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a 2-digit number:");
+        System.out.println("Enter a 3-digit number:");
         int num = scanner.nextInt();
 
-        if (num >= 10 && num <= 99) { // Checking if the number is a 2-digit number
+        if (num >= 10 && num <= 99) {
             int square = num * num;
             String strNum = String.valueOf(num);
             String strSquare = String.valueOf(square);
 
-            // Checking if the square ends with the same digits as the number itself
+            
             if (strSquare.endsWith(strNum)) {
                 System.out.println(num + " is an Automorphic number.");
             } else {
