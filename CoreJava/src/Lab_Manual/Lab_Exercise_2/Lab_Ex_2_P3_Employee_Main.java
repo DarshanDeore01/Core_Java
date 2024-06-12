@@ -1,4 +1,4 @@
-package Day2_Lab2;
+package Lab_Manual.Lab_Exercise_2;
 
 public class Lab_Ex_2_P3_Employee_Main {
 

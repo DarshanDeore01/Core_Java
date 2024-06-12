@@ -1,4 +1,4 @@
-package Day2_Lab1;
+package Lab_Manual.Lab_Exercise_1;
 
 public class MyDate {
     
