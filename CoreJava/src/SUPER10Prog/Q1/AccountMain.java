@@ -117,26 +117,7 @@ public class AccountMain {
                 break;
         		
         	}
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
-        	
+	
         }while(ch!=10);
 	}//end main
 

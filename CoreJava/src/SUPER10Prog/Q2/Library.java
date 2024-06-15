@@ -60,8 +60,9 @@ public class Library
                 found = true; 
             }
         }
-        if (!found) {
-            System.out.println("No books found by author: " + author); // Notify user if no books were found
+        if (!found) 
+        {
+            System.out.println("No books found by author: " + author);
         }
         }
         
