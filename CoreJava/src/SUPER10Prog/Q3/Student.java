@@ -58,7 +58,8 @@ public class Student
 	    }
 
 	    
-	    public void displayDetails() {
+	    public void displayDetails() 
+	    {
 	        System.out.println("Student ID: " + studentId); 
 	        System.out.println("Student Name: " + studentName); 
 	        System.out.println("Marks:"); 

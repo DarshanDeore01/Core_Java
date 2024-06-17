@@ -22,7 +22,7 @@ public class Library
             System.out.println("Book added successfully.");
         } else 
         {
-            System.out.println("Library is full. Cannot add more books.");
+            System.out.println("Library is full");
         }
     }
     
